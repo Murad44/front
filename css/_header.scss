@@ -1,0 +1,182 @@
+ul{
+    margin: 0;
+}
+
+.header{
+
+    padding: 40px 0;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    .mini-header{
+        position: relative;
+        .nav_links{
+            li{
+            list-style: none ;
+            margin-left: 45px;
+
+
+                a {
+                    list-style: none;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    color: #1b160c;
+                    text-decoration: none;
+                    font-weight: 700;
+                    position: relative;
+                    &:hover::before{
+                        width: 100%;
+                    }
+                    &::before {
+                        content: "";
+                        background: #f6ab4a;
+                        width: 0%;
+                        height: 2px;
+                        position: absolute;
+                        bottom: 0;
+                        
+                    }
+                }
+            }
+            .shop:hover{  
+            }
+            .myDropped{
+                &:hover{
+                    .pepper{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            .pepper{
+                position: absolute;
+                left: 0;
+                align-items: center;
+                padding: 30px 0;
+                background-color:white ;
+                top: 100%;
+                width: 100%;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+        .nav-icons{
+            i{
+                
+                margin-left: 15px;
+                font-size: 20px;
+            }
+        }
+
+
+     
+    }
+
+}
+
+
+.two{
+    .wone{
+            .tak{
+                display: inline-block;
+                font-size: 60px;
+                position: relative;
+                z-index: 1;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                background: #fbf17d;
+                text-align: center;
+                border-radius: 100%;
+                margin-right: 10px;
+            }
+            
+    }
+    .pan{
+        a{
+            background: #f6ab4a;
+            color: #FFF;
+            font-family: "Roboto Slab",serif;
+            padding: 13px 30px;
+            font-weight: 500;
+            margin-top: 30px;
+            border: 1px solid transparent;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+
+
+
+#footer{
+    .footer-2{
+     .length-width{
+         width: 80px;
+         height: 1px;
+         background:rgb(179, 177, 177);
+     }
+     h4{
+        color: var(--main-color, #1A2B48);
+         font-size: 14px;
+     }
+        .div{ 
+            position: relative;
+            margin: 35px 0;
+            i{
+                color: #f6ab4a;
+            }
+            h3{
+                color: #1A2B48;
+                font-size: 23px;
+            }
+            .icon{
+               ul{
+                   list-style: none;
+                   li{
+                       i{
+                        position: relative;
+                        display: inline-block;
+                        background: #f6ab4a;
+                        color: #FFF;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        line-height: 30px;
+                        border-radius: 4px;
+                       }
+                   }
+               }
+            }
+        
+       
+        }
+        ul{
+            
+            li{
+                margin: 1.5em 0;
+                a{
+                    color: black;
+                }
+            }
+        }
+        
+      .usd{
+          margin: 10px 0;
+          border: 1px solid #5E6D77;
+          height: 40px;
+          width: 50%;
+          li{
+              visibility: hidden;
+          }
+          &:hover{
+              li{
+                  visibility: visible;
+              }
+          }
+      }
+    }
+  
+   
+}
